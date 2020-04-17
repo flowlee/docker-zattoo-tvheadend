@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER "Marco Huenseler <marco.huenseler+git@gmail.com>"
+MAINTAINER "Florian Strasser <flowlee@gmx.net>"
 
 ENV BUILD_DEPS="build-essential cmake pkg-config libavahi-client-dev libssl-dev zlib1g-dev wget libcurl4-gnutls-dev git-core liburiparser-dev libdvbcsa-dev"
 
