@@ -5,7 +5,7 @@ MAINTAINER "Marco Huenseler <marco.huenseler+git@gmail.com>"
 ENV BUILD_DEPS="build-essential cmake pkg-config libavahi-client-dev libssl-dev zlib1g-dev wget libcurl4-gnutls-dev git-core liburiparser-dev libdvbcsa-dev"
 
 # Latest successful CI builded commit of master as of 2018/11/02
-ENV BUILD_COMMIT="2b16fcbf657437c227bb48b0d5c3b0b3f7d0d5bb"
+ENV BUILD_COMMIT="ebb0968047b6a3aecd61b48792ab8b48a50ecb0d"
 
 # Install 
 RUN apt-get update && \
