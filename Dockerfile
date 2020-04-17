@@ -67,4 +67,4 @@ ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["-u", "tvheadend", "-g", "tvheadend", "-c", "/tvh-data/conf"]
+CMD ["-u", "tvheadend", "-g", "tvheadend", "-c", "/config"]
